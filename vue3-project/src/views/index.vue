@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2021-08-14 12:48:52
- * @LastEditTime: 2021-08-15 17:51:51
+ * @LastEditTime: 2021-08-17 16:58:18
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \vue3_new_features_demo\vue2-project\src\views\index.vue
@@ -20,7 +20,7 @@
       <router-link to="/watch">toWatch</router-link>
 
     </div>
-    <child msg="来自父组件index的值"></child>
+    <child msg="来自父组件index的值" ref="cd"></child>
   </div>
 </template>
 
